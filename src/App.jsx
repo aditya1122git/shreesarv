@@ -10,6 +10,7 @@ import Spotlight from './components/Spotlight'
 import Capabilities from './components/Capabilities'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Careers from './components/Careers'
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
         <Approach />
         <Spotlight />
         <Capabilities />
+        <Careers />
         <Contact />
       </main>
       <Footer />

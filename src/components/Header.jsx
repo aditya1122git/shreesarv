@@ -7,8 +7,7 @@ function Header() {
   return (
     <header className="nav-wrap">
       <a href="#top" className="wordmark" aria-label="Shreesarv Intelligence home" onClick={closeMenu}>
-        <img className="brand-logo" src="/Shreesarv-Logo.png" alt="Shreesarv Intelligence logo" />
-        <span>SHREESARV<br /><small>INTELLIGENCE</small></span>
+        <img className="brand-logo" src="/Shree-Logo.png" alt="Shreesarv Intelligence Tech Pvt. Ltd." />
       </a>
       <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-expanded={menuOpen} aria-label="Toggle navigation">
         <span></span><span></span>
@@ -18,7 +17,8 @@ function Header() {
         <a href="#services" onClick={closeMenu}>Services</a>
         <a href="#approach" onClick={closeMenu}>Approach</a>
         <a href="#capabilities" onClick={closeMenu}>Capabilities</a>
-        <a href="#contact" className="nav-cta" onClick={closeMenu}>Start a project <i className="fa-solid fa-arrow-right"></i></a>
+        <a href="#careers" onClick={closeMenu}>Careers</a>
+        <a href="#contact" className="nav-cta" onClick={closeMenu}>Start a project</a>
       </nav>
     </header>
   )
